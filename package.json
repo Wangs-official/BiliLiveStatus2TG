@@ -1,0 +1,18 @@
+{
+  "name": "bilibili-live-monitor",
+  "version": "1.0.0",
+  "description": "Bilibili直播状态监控Telegram机器人，部署在Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.2"
+  }
+}

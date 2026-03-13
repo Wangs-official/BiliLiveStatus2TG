@@ -1,0 +1,30 @@
+# 忽略node_modules目录
+node_modules/
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 忽略日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 忽略构建产物
+/dist/
+/build/
+
+# 忽略wrangler配置中的敏感信息
+wrangler.toml
+
+.wrangler/
