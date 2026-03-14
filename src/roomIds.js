@@ -5,5 +5,7 @@
 //   789012   // 主播2的房间ID
 // ];
 
-export default [];
+export default [
+    1844410596
+];
 
